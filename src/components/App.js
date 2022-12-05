@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <MovieCard title={title} genres={genresArr} />
+      <MovieCard titles={title} genres={genresArr} posterSrc={posterURL} />
     </div>
   );
 }
